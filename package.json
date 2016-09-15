@@ -1,0 +1,28 @@
+{
+  "name": "phantomas-batch-test",
+  "version": "0.0.1",
+  "description": "This is just a example of how we can test several websites with PhantomasJS",
+  "main": "index.js",
+  "keywords": [
+    "performance",
+    "test",
+    "phantom"
+  ],
+  "author": "Mozart Diniz",
+  "license": {
+    "type": "Apache-2.0",
+    "url": "http://opensource.org/licenses/apache2.0.php"
+  },
+  "dependencies": {
+    "gulp-cli": "^1.2.2",
+    "phantomas": "^1.16.0",
+    "phantomjs-prebuilt": "^2.1.12"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-louis": "https://github.com/mozartdiniz/gulp-louis.git#new_result_file_naming_strategy"
+  }
+}
